@@ -22,3 +22,7 @@
 10.  Now we have code that is comitted to a **feature branch** but the remote git repo does not see any changes at all, YET.
 
 11.  To *inform* the remote git repo of the changes that you make in your **LOCAL git**, you can push your commits up to the **REMOTE git** using the following command: `git push`
+
+12.  Create a merge/pull request on the remote repo to merge the feature branch into the main branch so that it can receive the commits you pushed...
+
+13.  Now your **main** branch is updated with the feature branch code, but if you switch to your **LOCAL** main branch, you will notice that it does not know about the changes...  In order to get the latest changes for any given branch, *from the remote repo (meaning, after you merge)* you can run the folowing command: `git pull`
